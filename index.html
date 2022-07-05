@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Counter</title>
+
+    <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Word Counter</h1>
+    <div class="boxsizingBorder">
+      <textarea
+        id="mainTextArea"
+        class="myTypingBox"
+        placeholder="Type Here..."
+        rows="10"
+      ></textarea>
+    </div>
+    <div class="counterDiv">
+      <div class="counters">
+        <div class="ttlBox">
+          <span>Characters :</span>
+          <span id="ttlCharacters"></span>
+        </div>
+      </div>
+      <div class="counters">
+        <div class="ttlBox">
+          <span>Words :</span>
+          <span id="ttlWords"></span>
+        </div>
+      </div>
+
+      <div class="counters">
+        <div class="ttlBox">
+          <span>Sentences :</span>
+          <span id="ttlSentences"></span>
+        </div>
+      </div>
+      <div class="counters">
+        <div class="ttlBox">
+          <span>Paragraphs :</span>
+          <span id="ttlParagraphs"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
